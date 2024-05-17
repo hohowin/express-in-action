@@ -5,12 +5,10 @@
   "repository": "https://github.com/hohowin/express-in-action.git",
   "author": "Howin Ho <ho1ho@yahoo.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "dev": "nodemon dist/index.js",
-    "debug": "DEBUG=mean-server nodemon dist/index.js",
+    "dev": "npx nodemon dist/index.js",
     "start": "node dist/index.js"
   },
   "devDependencies": {
